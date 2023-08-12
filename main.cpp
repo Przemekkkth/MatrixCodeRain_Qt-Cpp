@@ -117,7 +117,7 @@ class Window : public QWidget
 public:
     Window(int w, int h)
     {
-        setWindowTitle("Matrix Rain Qt C++");
+        setWindowTitle("Matrix Code Rain Qt C++");
         resize(w, h);
 
         for (int x = 0; x < WIDTH; x += FONT_SIZE) {
